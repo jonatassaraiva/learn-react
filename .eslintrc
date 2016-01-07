@@ -2,7 +2,9 @@
   "extends": "eslint:recommended",
   "env": {
     "node": true,
-    "es6": true
+    "es6": true,
+    "browser": true,
+    "jquery": true
   },
   "rules": {
     "semi": [2, "always"],
@@ -10,9 +12,14 @@
     "no-unused-vars": [2, {
       "args": "none",
       "vars": "all"
-    }]
+    }],
+    "no-console": 0
   },
   "ecmaFeatures": {
     "jsx": true
+  },
+  "globals": {
+    "jQuery": true,
+    "$": true
   }
 }
