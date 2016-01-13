@@ -16,10 +16,12 @@
     "no-console": 0
   },
   "ecmaFeatures": {
-    "jsx": true
+    "jsx": true,
+    "modules": true
   },
   "globals": {
     "jQuery": true,
     "$": true
-  }
+  },
+  "plugins": ["react"]
 }
