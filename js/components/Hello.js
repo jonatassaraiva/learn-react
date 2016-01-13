@@ -4,7 +4,7 @@ export default class Hello extends React.Component {
   render() {
     return (
       <div>
-        Hello React and ES6 
+        Hello React and ES'6 
       </div>
     );
   }

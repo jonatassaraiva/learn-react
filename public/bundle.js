@@ -20177,7 +20177,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        'Hello React and ES6'
+	        'Hello React and ES\'6'
 	      );
 	    }
 	  }]);
